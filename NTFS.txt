@@ -1,0 +1,7 @@
+1. create NTFS folder in d drive
+2. open cmd D: , cd NTFS
+3. dir , echo "This is original file" >>original.txt
+4. check if original.txt is created
+5. echo "This is a secret file" >>original.txt:secret.txt
+6. #notepad original.txt:secret.txt
+7. dir , dir /R
